@@ -183,7 +183,7 @@ This is used in the current version of the setup
 The original design files are in the [INVENTOR](./INVENTOR) folder. 
 
 
-# # Hardware - Motor-driven Z-stage (50mm linear actuator /w NEMA11)
+# Hardware - Motor-driven Z-stage (50mm linear actuator /w NEMA11)
 
 
 
@@ -224,6 +224,55 @@ This is used in the current version of the setup
 The original design files are in the [INVENTOR](./INVENTOR) folder. 
 
 
+
+# Hardware - Motor-driven Z-stage (DIY, Captive, NEMA11)
+
+
+
+
+
+
+**Figure 2:** *A ~50mm long 5mm diameter rods ensure a linear motion alogn Z*
+
+The core idea of this linear stage is very similar to the previous module, except that you only need 5mm diameter rods that ensure a linear motion. The actual actuator again is the manually driven level arm.
+
+This is only a rough description of the assembly process. If you need additional information please have a look the core [openUC2 repository](https://github.com/openUC2/UC2-GIT) or file an issue.
+
+
+## Bill of material
+
+Below you will find all components necessary to build the beamcombiner
+
+### 3D printing files
+
+All these files in the folder [./STL/](./STL/) need to be printed. We used a Prusa i3 MK3 using PLA Prusament (Galaxy Black) at layer height 0.3 mm and infill 30%.
+
+For the RMS-threaded objective mount you should use higher printing resolution, e.g. 0.1mm.
+
+Additionally you need 1x IM Cube.
+
+
+### Additional parts
+This is used in the current version of the setup
+
+|  Type | Details  |  Price | Link  |
+|---|---|---|---|
+| 2x rods |  50mm 5m diameter rods (e.g. aluminium)|  1 € | [thorlabs](thorlabs) or ebay  or your local home supply store |
+
+### Design files
+The original design files are in the [INVENTOR](./INVENTOR) folder. 
+
+
+
+### Assembly
+
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/Assembly6.png" width="300"></a>
+</p>
+
+<p align="center">
+<a href="#logo" name="logo"><img src="./IMAGES/Assembly7.png" width="400"></a>
+</p>
 
 
 ## Showcase
