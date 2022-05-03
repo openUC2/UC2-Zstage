@@ -1,3 +1,7 @@
+<p align="left">
+<a href="#logo" name="logo"><img src="https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/IMAGES/UC2_logo_text.png" width="400"></a>
+</p>
+
 
 # openUC2 Linear Focussing Stage 
  
