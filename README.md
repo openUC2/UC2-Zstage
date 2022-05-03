@@ -3,14 +3,14 @@
 </p>
 
 
-# openUC2 Linear Focussing Stage 
- 
+# openUC2 Linear Focussing Stage
 
-This repo will help you to integrate linear motion into a cube. We have multiple different solutions depending on precision, price and available components. Some are motorized, others are purely manually driven. 
+
+This repo will help you to integrate linear motion into a cube. We have multiple different solutions depending on precision, price and available components. Some are motorized, others are purely manually driven.
 
 ## Manually-driven Z-stage
 
-The idea is to have a small level arm that is equipped with a one-sided gear that translates a rotation into a linear motion. The linear motion is quided either using a CNC-derived linear bearing (i.e. MGN12H) or a rod-based linear rail system, where a 5mm rod in combination with a dry linear bearing (similar to Igus drylin, but 3D printed) assures linear motion along the optical axis. 
+The idea is to have a small level arm that is equipped with a one-sided gear that translates a rotation into a linear motion. The linear motion is quided either using a CNC-derived linear bearing (i.e. MGN12H) or a rod-based linear rail system, where a 5mm rod in combination with a dry linear bearing (similar to Igus drylin, but 3D printed) assures linear motion along the optical axis.
 
 Both versions are thought to be used for beginner purposes and for low magnification lenses since the overall accuracy is not very high.
 
@@ -20,9 +20,9 @@ Both versions are thought to be used for beginner purposes and for low magnifica
 
 ## Motorized Z-stage
 
-For automated micrsocopy applications it is important to have a stable focus that can be moved to compensate focus variatins and for focus stacking. We make use of several different versions, where one relies on an off-the-shelf linear actuator (50mm rail with NEMA11 stepper motor) that integrates in the cube either in an inverted or upright system. 
+For automated micrsocopy applications it is important to have a stable focus that can be moved to compensate focus variatins and for focus stacking. We make use of several different versions, where one relies on an off-the-shelf linear actuator (50mm rail with NEMA11 stepper motor) that integrates in the cube either in an inverted or upright system.
 
-Alternatively we also offer a linear stage derived from a 25mm linear bearing that can be operated manually with its micrometer screw or pushed by a non-captive linear motor (NEMA8, Nanotec). This is by far the most precise, but also the most expensive solution. 
+Alternatively we also offer a linear stage derived from a 25mm linear bearing that can be operated manually with its micrometer screw or pushed by a non-captive linear motor (NEMA8, Nanotec). This is by far the most precise, but also the most expensive solution.
 
 The last DIY-lovers version relies on off-the-shelf parts (e.g. 3D printed, ebay) only. It features a NEMA11 motor in combination with a DIY non-captive linear motion that is guided by a MGN12H linear bearing. Though it's readily available it may suffer from certain imprecisions.
 
@@ -30,7 +30,7 @@ The last DIY-lovers version relies on off-the-shelf parts (e.g. 3D printed, ebay
 <a href="#logo" name="logo"><img src="./IMAGES/Assembly1.png" width="600"></a>
 </p>
 
-Below we will briefly show you how to build the modules. 
+Below we will briefly show you how to build the modules.
 
 ***Features:***
 * Linear Z-motion
@@ -51,7 +51,7 @@ Here you can see a z-stack acquired with the UC2 linear stage:
 
 # Software
 
-## Firmware 
+## Firmware
 
 The laser control and motion of the filter is done by the [UC2-REST](https://github.com/openUC2/UC2-REST) firmware. It is a work-in-progress and we suggest you to reach out to us through an issue when you're keen on using the software
 
@@ -73,9 +73,9 @@ A ESP32-Python client to control the motors that are connected to e.g. the CNC-S
 
 **Figure 1:** *A ~50mm long MGN12H linear bearing/rail integrates into the cube to have a stable motion along the optical axis*
 
-The rail mounts to the base and the objective mount adapts to the acutal linear bearing. This piece also has a linear set of gear tooths that in combination with the geared level arm allows a linear motion when pulling the levelarm up and down. 
+The rail mounts to the base and the objective mount adapts to the acutal linear bearing. This piece also has a linear set of gear tooths that in combination with the geared level arm allows a linear motion when pulling the levelarm up and down.
 
-The assembly porcess is straight forward. Even though not shown in the diagram, you only need to add M3 screws to mount the linear rail to the base and then the objective mount to the linear rail. The level arm is also mounted to the base with two M3 screws in order to allow a rotation. 
+The assembly porcess is straight forward. Even though not shown in the diagram, you only need to add M3 screws to mount the linear rail to the base and then the objective mount to the linear rail. The level arm is also mounted to the base with two M3 screws in order to allow a rotation.
 
 This is only a rough description of the assembly process. If you need additional information please have a look the core [openUC2 repository](https://github.com/openUC2/UC2-GIT) or file an issue.
 
@@ -103,7 +103,7 @@ This is used in the current version of the setup
 
 
 ### Design files
-The original design files are in the [INVENTOR](./INVENTOR) folder. 
+The original design files are in the [INVENTOR](./INVENTOR) folder.
 
 
 ====================================
@@ -145,7 +145,7 @@ This is used in the current version of the setup
 | 2x rods |  50mm 5m diameter rods (e.g. aluminium)|  1 € | [thorlabs](thorlabs) or ebay  or your local home supply store |
 
 ### Design files
-The original design files are in the [INVENTOR](./INVENTOR) folder. 
+The original design files are in the [INVENTOR](./INVENTOR) folder.
 
 
 # Hardware - Motor-driven Z-stage (25mm linear stage/table /w non-captive NEMA8 actuator)
@@ -158,7 +158,7 @@ The original design files are in the [INVENTOR](./INVENTOR) folder.
 
 **Figure 2:** *Professional x-axis linear table with non-captive linear avtuator*
 
-A metal-based linear stage is getting pushed by a non-captive motor. This is by far the most accurate stage and costs around 200€. 
+A metal-based linear stage is getting pushed by a non-captive motor. This is by far the most accurate stage and costs around 200€.
 This is only a rough description of the assembly process. If you need additional information please have a look the core [openUC2 repository](https://github.com/openUC2/UC2-GIT) or file an issue.
 
 
@@ -184,7 +184,7 @@ This is used in the current version of the setup
 | 1x non-captive linear motor | NEED TO PUT NAME HERE, 25mm |  100 € | [NA](NA) |
 
 ### Design files
-The original design files are in the [INVENTOR](./INVENTOR) folder. 
+The original design files are in the [INVENTOR](./INVENTOR) folder.
 
 
 # Hardware - Motor-driven Z-stage (50mm linear actuator /w NEMA11)
@@ -225,7 +225,7 @@ This is used in the current version of the setup
 | 2x rods |  50mm 5m diameter rods (e.g. aluminium)|  1 € | [thorlabs](thorlabs) or ebay  or your local home supply store |
 
 ### Design files
-The original design files are in the [INVENTOR](./INVENTOR) folder. 
+The original design files are in the [INVENTOR](./INVENTOR) folder.
 
 
 
@@ -264,15 +264,37 @@ This is used in the current version of the setup
 | 2x rods |  50mm 5m diameter rods (e.g. aluminium)|  1 € | [thorlabs](thorlabs) or ebay  or your local home supply store |
 
 ### Design files
-The original design files are in the [INVENTOR](./INVENTOR) folder. 
+The original design files are in the [INVENTOR](./INVENTOR) folder.
 
 
 
 ### Assembly
 
+
+<p align="left">
+<a href="https://youtu.be/wSw3i1LwKLA" name="logo"><img src="https://www.uni-giessen.de/fbz/fb04/institute/geschichte/fachjournalistik/bilder/Logos/YouTube-logo/image_mini" width="100"></a>
+</p>
+
+For this stage we have an in-detail [**YouTube**](https://youtu.be/wSw3i1LwKLA) video that describes the assembly process.
+
+
+<p align="center">
+<a href="https://youtu.be/wSw3i1LwKLA" name="logo"><img src="./IMAGES/YTZstage.png" width="500"></a>
+</p>
+
+
+### Explosion View
+
+The assemlby is divided in two different parts, the motor holder for the NEMA11 motor and the linear stage that moves the objective up and down. The mechanism is called "captive" since the worm drive remains stationary and the nut is rotating.
+
 <p align="center">
 <a href="#logo" name="logo"><img src="./IMAGES/Assembly6.png" width="300"></a>
 </p>
+
+
+The zoomed-in version shows  location of all necessary screws and shafts.
+**ATTENTION:** the shaft that mounts the M3 nut looks a bit different since this version colides with the MGN12H linear stage!
+
 
 <p align="center">
 <a href="#logo" name="logo"><img src="./IMAGES/Assembly7.png" width="400"></a>
