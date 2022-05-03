@@ -10,7 +10,7 @@ This repo will help you to integrate linear motion into a cube. We have multiple
 
 ## Manually-driven Z-stage
 
-The idea is to have a small level arm that is equipped with a one-sided gear that translates a rotation into a linear motion. The linear motion is quided either using a CNC-derived linear bearing (i.e. MGN12H) or a rod-based linear rail system, where a 5mm rod in combination with a dry linear bearing (similar to Igus drylin, but 3D printed) assures linear motion along the optical axis.
+The idea is to have a small level arm that is equipped with a one-sided gear that translates a rotation into a linear motion. The linear motion is guided either using a CNC-derived linear bearing (i.e. MGN12H) or a rod-based linear rail system, where a 5mm rod in combination with a dry linear bearing (similar to Igus drylin, but 3D printed) assures linear motion along the optical axis.
 
 Both versions are thought to be used for beginner purposes and for low magnification lenses since the overall accuracy is not very high.
 
@@ -257,19 +257,23 @@ Additionally you need 1x IM Cube.
 
 
 ### Additional parts
-This is used in the current version of the setup
+This is used in the current version of the setup. Also check out the [RESOURCES](https://github.com/openUC2/UC2-GIT/edit/master/TUTORIALS/RESOURCES) for more information!
+
 
 |  Type | Details  |  Price | Link  |
 |---|---|---|---|
-| 2x rods |  50mm 5m diameter rods (e.g. aluminium)|  1 € | [thorlabs](thorlabs) or ebay  or your local home supply store |
+| MGN12 linear slider  |  |  10 € | [RoboterBausatz](https://www.roboter-bausatz.de/p/https://www.roboter-bausatz.de/p/linearfuehrung-mgn12h-500mm) or ebay  or your local home supply store |
+| Linear Rail MGN12, 50mm  |  |  10 € | [RoboterBausatz](https://www.roboter-bausatz.de/p/https://www.roboter-bausatz.de/p/linearfuehrung-mgn12h-500mm) or ebay  or your local home supply store |
+| M3 Nut||1€||
+| M3 Screw|30 mm or longer (non-magnetic)|1€||
+| various M3 Screw | 10-20mm cylindrical head, DIN912 | 1€ ||
+| NEMA11 motor |  | 20€ | [Eckstein](https://eckstein-shop.de/PololuStepperMotorNEMA11Bipolar200StepsRev28C39732mm38V067APhase?googlede=1&gclid=CjwKCAjwgr6TBhAGEiwA3aVuIemIiCbbJsX1DbXvSvYKlc5SyrasjXvwdhwaivC9wn2tsi2k-U9hXxoC1asQAvD_BwE)|
 
 ### Design files
 The original design files are in the [INVENTOR](./INVENTOR) folder.
 
 
-
 ### Assembly
-
 
 <p align="left">
 <a href="https://youtu.be/wSw3i1LwKLA" name="logo"><img src="https://www.uni-giessen.de/fbz/fb04/institute/geschichte/fachjournalistik/bilder/Logos/YouTube-logo/image_mini" width="100"></a>
